@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#Z"
+  ],
+  "key": {
+    "#": {
+      "item": "minezomb:salt"
+    },
+    "Z": {
+      "item": "minecraft:milk_bucket"
+    }
+  },
+  "result": {
+    "item": "minezomb:cheese"
+  }
+}

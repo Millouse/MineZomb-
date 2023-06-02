@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "minezomb:item/hardware_disk"
+    "layer0": "minezomb:item/cheese"
   }
 }

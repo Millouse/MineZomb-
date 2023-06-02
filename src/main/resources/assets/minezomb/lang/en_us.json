@@ -1,4 +1,8 @@
 {
-  "item.minezomb.dragon_tear": "Dragon's Tear",
-  "item.minezomb.machete": "Machete"
+  "item.minezomb.zombie_flesh": "Zombie Flesh",
+  "item.minezomb.machete": "Machete",
+  "item.minezomb.salt": "Salt",
+  "item.minezomb.cheese": "Cheese",
+
+  "item.minezomb.fridge": "Fridge"
 }
