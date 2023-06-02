@@ -13,7 +13,9 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, AbstractEnergies.MOD_ID);
 
     public static final RegistryObject<Item> DRAGON_TEAR = ITEMS.register("dragon_tear",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC).stacksTo(16)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.MOD_TAB).stacksTo(16)));
+    public static final RegistryObject<Item> HARDWARE_DISK = ITEMS.register("hardware_disk",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.MOD_TAB).stacksTo(1)));
 
     public static void register(IEventBus eventbus) {
         ITEMS.register(eventbus);
